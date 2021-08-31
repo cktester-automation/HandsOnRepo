@@ -1,0 +1,21 @@
+1. In Create New Employee, change all the sysout details to printin the testNG REport. 
+Verify the status code of the response matches 200. 
+Convert the response from String to json object and print the ID of the created record- TestNGReport
+
+2. Update Employee- Write a test to update an employee
+Verify the status code of the response matches 200. 
+Convert the response from String to json object and print the name, job and updated at fields from the response- TestNGReport
+
+3.Delete Employee- Write a test to delete an employee
+Verify the status code of the response matches 200.
+Convert the response from String to json object and print the name, job and updated at fields from the response- TestNGReport
+
+4. Retrieve Employee-Write a test retrieve the details of an employee
+Verify the status code of the response matches 200.
+Convert the response from String to json object and print all the individual tags and their values .- TestNGReport
+
+5. Retrieve ALL Employees-Write a test retrieve the details of all the employees
+Verify the status code of the response matches 200.
+Convert the response from String to json object
+Print all total number of employee details
+Add the all the names (first name+ last name) into an array list. Sort the array list and print it- TestNGReport

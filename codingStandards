@@ -1,0 +1,68 @@
+1. Package name:-
+It should be an in lowercase ASCII letter such as java, lang. If the name contains multiple words, it should be separated by dots (.) such as java.util, java. lang.
+Examples: mypackage, com.company.application.ui, com.sun.eng, com.apple.quicktime.v2
+
+2. Class and Interface name:-
+It should start with the uppercase letter. It should be a noun such as Color, Button, System, Thread, etc. 
+Use appropriate words, instead of acronyms.
+Examples: interface Bicycle, class MountainBike implements Bicycle, interface Sport, class Football implements Sport
+
+3. Method name:-
+Usually, the method name should either be a verb or verb-noun combination starting with the lower letter. 
+If it contains multiple words then every inner word should start with uppercase.
+Examples: print(), sleep(), setSalary()
+
+4. Variable name:-
+i) Instance variable:- Usually variable name should be a noun starting with a lowercase letter. 
+If it contains multiple words then every inner word should start with uppercase.
+Examples: name, age. mobileNumber
+ii)Constants (final variables):-Usually, a constant name should be a noun. 
+It should contain the only uppercase If it contains multiple words then words are separated with the ( _ ) underscore symbol.
+ Usually, we declare constants with public static and final modifiers.
+Examples:- MAX_ITERATIONS, COLOR_RED
+iii) boolean variables:- It uses is as a prefix before the variable name.
+Example:- isSet, isVisible, isFinished, isFound, isOpen
+iv) Private variable:- It uses underscore ( _ ) at end of the variable name.
+Example:- private String name_;
+
+5. Java bean:- A Java Bean is a simple java class with private properties and public getter and setter methods
+Getter Methods:
+It should be a public method
+Method name should be prefixed with “get”
+It should not take any argument
+Setter Methods:
+It should be a public method
+Return Type should be void
+Method name should be prefixed with “set”
+It should take some argument
+Above are the most used naming convention. Some of the points regarding coding standards
+Generic variables should have the same name as their type.
+Example:-
+
+2. n prefix should be used for variables representing a number of objects.
+Example:- nPoints, nLines
+3. No suffix should be used for variables representing an entity number.
+Example:- tableNo, employeeNo
+4. Iterator variables should be called i, j, k, etc.
+Example:- for (int i = 0; i < nTables; i++) { }
+5. Negated boolean variable names must be avoided.
+Example:-
+
+6. Imported classes must always be listed explicitly. 
+Importing classes explicitly gives an excellent documentation value for the class at hand and makes the class easier to 
+comprehend and maintain.
+Example:-
+
+7. Method modifiers should be given in the following order:
+<access> static abstract synchronized <unusual> final native
+The <access> modifier (if present) must be the first modifier.
+<access> is one of public, protected or private while <unusual> includes volatile and transient. 
+The most important point here is to keep the access modifier as the first modifier.
+Example:-
+
+8. Arrays should be declared with their brackets next to the type.
+Example:-
+
+The reason is twofold. First, the array-ness is a feature of the class, not the variable. 
+Second, when returning an array from a method, it is not possible to have the brackets with other than the type
+ (as shown in the last example).
