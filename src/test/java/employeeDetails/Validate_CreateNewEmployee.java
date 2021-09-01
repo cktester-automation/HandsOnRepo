@@ -2,8 +2,8 @@ package employeeDetails;
 
 import org.testng.annotations.Test;
 
-import com.disney.paap.api.restServices.helpers.PayloadReader;
-import com.disney.paap.api.restServices.helpers.RestHttpResponse;
+import com.api.restServices.helpers.PayloadReader;
+import com.api.restServices.helpers.RestHttpResponse;
 
 import baseTests.EmployeeBaseTest;
 /**

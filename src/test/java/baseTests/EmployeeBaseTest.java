@@ -1,7 +1,7 @@
 package baseTests;
 
-import com.disney.paap.api.restServices.Rest;
-import com.disney.paap.api.restServices.helpers.RestHttpResponse;
+import com.api.restServices.Rest;
+import com.api.restServices.helpers.RestHttpResponse;
 
 public class EmployeeBaseTest {
 	

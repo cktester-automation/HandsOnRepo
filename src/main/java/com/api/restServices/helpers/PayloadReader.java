@@ -1,4 +1,4 @@
-package com.disney.paap.api.restServices.helpers;
+package com.api.restServices.helpers;
 
 import java.io.File;
 import java.nio.charset.Charset;

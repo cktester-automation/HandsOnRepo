@@ -1,4 +1,4 @@
-package com.disney.paap.api.restServices.employee.employeeActions;
+package com.api.restServices.employee.employeeActions;
 
 import java.io.IOException;
 
@@ -16,8 +16,8 @@ import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.util.EntityUtils;
 
-import com.disney.paap.api.restServices.employee.Employee;
-import com.disney.paap.api.restServices.helpers.RestHttpResponse;
+import com.api.restServices.employee.Employee;
+import com.api.restServices.helpers.RestHttpResponse;
 
 public class EmployeeActions {
 

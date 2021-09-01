@@ -1,6 +1,6 @@
-package com.disney.paap.api.restServices.employee;
+package com.api.restServices.employee;
 
-import com.disney.paap.api.restServices.employee.employeeActions.EmployeeActions;
+import com.api.restServices.employee.employeeActions.EmployeeActions;
 
 public class Employee {
 
